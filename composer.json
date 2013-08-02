@@ -1,0 +1,36 @@
+{
+    "name": "digital-canvas/cart-recover-phpapi",
+    "description": "Cart Recover - PHP API.",
+    "type": "library",
+    "keywords": ["cart-recover", "api"],
+    "homepage": "http://www.cart-recover.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan Bernardi",
+            "email": "jonathan@digitalcanvas.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Jeff Shaikh",
+            "email": "jeff@digitalcanvas.com",
+            "role": "Project Lead"
+        }
+    ],
+    "support": {
+        "email": "support@cart-recover.com",
+        "issues": "https://github.com/digital-canvas/cart-recover-phpapi/issues",
+        "wiki": "https://github.com/digital-canvas/cart-recover-phpapi/wiki",
+        "source": "https://github.com/digital-canvas/cart-recover-phpapi"
+    },
+    "suggest": {
+      "zendframework/zendframework1": "Use Zend_Http_Client from Zend Framework 1.x for making requests",
+      "zendframework/zend-http": "Use Zend\\Http\\Client from Zend Framework 2.x for making requests",
+      "guzzle/guzzle": "Use Guzzle for making requests"
+    },
+    "autoload": {
+        "psr-0": {
+            "CartRecover_": "src/"
+        }
+    }
+}
