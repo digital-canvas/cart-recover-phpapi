@@ -6,6 +6,6 @@
  * @package CartRecover
  * @category Exception
  */
-interface CartRecover_Exeption {
+interface CartRecover_Exception {
 
 }

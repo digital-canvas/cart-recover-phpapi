@@ -51,7 +51,7 @@ class CartRecover_API {
   public function __construct($account_key, $test_url = null) {
     $this->_account_key = $account_key;
     if ($test_url) {
-      $this->url = $test_url . '/cart/' . self::VERSION;
+      $this->url = trim($test_url,'/') . '/cart/' . self::VERSION;
     } else {
       $this->url = self::URL . self::VERSION;
     }

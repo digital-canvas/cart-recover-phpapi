@@ -6,6 +6,6 @@
  * @package CartRecover
  * @category Exception
  */
-class CartRecover_Exception_DomainException extends DomainException implements CartRecover_Exeption {
+class CartRecover_Exception_DomainException extends DomainException implements CartRecover_Exception {
 
 }

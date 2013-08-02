@@ -6,6 +6,6 @@
  * @package CartRecover
  * @category Exception
  */
-class CartRecover_Exception_InvalidArgumentException extends InvalidArgumentException implements CartRecover_Exeption {
+class CartRecover_Exception_InvalidArgumentException extends InvalidArgumentException implements CartRecover_Exception {
 
 }

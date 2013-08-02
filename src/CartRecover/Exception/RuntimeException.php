@@ -6,6 +6,6 @@
  * @package CartRecover
  * @category Exception
  */
-class CartRecover_Exception_RuntimeException extends RuntimeException implements CartRecover_Exeption {
+class CartRecover_Exception_RuntimeException extends RuntimeException implements CartRecover_Exception {
 
 }
