@@ -139,7 +139,7 @@ class CartRecover_API {
    */
   protected function sendRequest($path, array $params) {
     $request = $this->buildRequest($path, $params);
-    return $this->adapter->sendRequest($request);
+    return $this->getHTTPClientAdapter()->sendRequest($request);
 
   }
 
